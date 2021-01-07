@@ -5,8 +5,32 @@
     }
 
     .header{
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
+    }
+
+    .menu{
+        display: none;
+        background: #028AD1;
+        width: 100%;
+        position: absolute;
+        padding: 15px;
+        top: 60px;
+        left: 0px;
+    }
+    
+    .hamburger-menu{
+        display: block;
+    }
+    .hamburger-menu a{
+        display: block;
+        font-size: 23px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .menu ul li{
+        display: block;
     }
 
     .banner p{
@@ -153,6 +177,28 @@
         justify-content: space-between;
     }
 
+    .menu{
+        display: block;
+        background: transparent;
+        width: auto;
+        position: unset;
+        padding: 0;
+    }
+    
+    .hamburger-menu{
+        display: none;
+    }
+    .hamburger-menu a{
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .menu ul li{
+        display: inline-block;
+    }
+
     .banner p{
         width: 80%;
     }
@@ -295,6 +341,28 @@
     .header{
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .menu{
+        display: block;
+        background: transparent;
+        width: auto;
+        position: unset;
+        padding: 0;
+    }
+    
+    .hamburger-menu{
+        display: none;
+    }
+    .hamburger-menu a{
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .menu ul li{
+        display: inline-block;
     }
 
     .banner p{
@@ -441,6 +509,28 @@
     .header{
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .menu{
+        display: block;
+        background: transparent;
+        width: auto;
+        position: unset;
+        padding: 0;
+    }
+    
+    .hamburger-menu{
+        display: none;
+    }
+    .hamburger-menu a{
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .menu ul li{
+        display: inline-block;
     }
 
     .banner p{
@@ -607,6 +697,24 @@
 
 .logo img{ 
     height: 23px;
+}
+
+.menu{
+    display: block;
+    background: transparent;
+    width: auto;
+    position: unset;
+    padding: 0;
+}
+
+.hamburger-menu{
+    display: none;
+}
+.hamburger-menu a{
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
 }
 
 .menu ul li{
